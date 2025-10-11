@@ -8,7 +8,7 @@ This repository contains the source code and documentation for my RISC-V Capston
 - Assembly and C code examples
 - Simulation and verification scripts
 - Documentation and design files
-
+ok bhai
 ## Getting Started
 
 1. **Clone the repository:**
