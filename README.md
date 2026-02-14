@@ -70,7 +70,7 @@ The core is designed in Verilog HDL and verified using Xilinx Vivado. It feature
 
 The following waveform demonstrates the processor executing a sequence of RV32I instructions. The signals highlight the correct propagation of the Program Counter (PC), ALU results, and Writeback stages.
 
-![Simulation Waveform](results.jpg)
+![Simulation Waveform](results.jpeg)
 
 ## Roadmap & Future Prospects
 This repository represents the completed Phase I of the Capstone project. The development timeline is structured as follows:
