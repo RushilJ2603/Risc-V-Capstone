@@ -24,24 +24,28 @@ The core is designed in Verilog HDL and verified using Xilinx Vivado. It feature
 
 ## Project Structure
 
-pp.xpr                 # Xilinx Vivado Project File
-pp.srcs/
-│   ├── sources_1/new/     # RTL Source Codes
-│   │   ├── top_module.v          # Top-level processor module
-│   │   ├── hazard_unit.v         # Hazard detection and forwarding logic
-│   │   ├── controlpath.v         # Main control unit
-│   │   ├── alu.v                 # Arithmetic Logic Unit
-│   │   ├── pp_stage_2.v to _5.v  # Pipeline stage registers
-│   │   ├── reg_file_.v           # Register File (32 x 32-bit)
-│   │   ├── data_mem.v            # Data Memory
-│   │   └── instruction.v         # Instruction Memory
-│   └── sim_1/new/         # Simulation Files
-│       └── testbench.v           # Main Testbench
-hex_files/             # Memory Initialization Files
-│   ├── rv32i_real.hex            # Instruction Memory Hex Code
-│   ├── data_mem_file.hex         # Initial Data Memory Values
-│   └── register_file_counting.hex
-└── architecture.png       # High-level Architecture Design
+```text
+├── pp.xpr                          # Xilinx Vivado Project File
+├── pp.srcs/
+│   ├── sources_1/new/              # RTL Source Codes
+│   │   ├── top_module.v            # Top-level processor module
+│   │   ├── hazard_unit.v           # Hazard detection and forwarding logic
+│   │   ├── controlpath.v           # Main control unit
+│   │   ├── alu.v                   # Arithmetic Logic Unit
+│   │   ├── pp_stage_2.v to 5.v     # Pipeline stage registers
+│   │   ├── reg_file_.v             # Register File (32 x 32-bit)
+│   │   ├── data_mem.v              # Data Memory
+│   │   └── instruction.v           # Instruction Memory
+│   └── sim_1/new/                  # Simulation Files
+│       └── testbench.v             # Main Testbench
+├── hex_files/                      # Memory Initialization Files
+│   ├── rv32i_real.hex              # Instruction Memory Hex Code
+│   ├── data_mem_file.hex           # Initial Data Memory Values
+│   └── register_file_counting.hex  
+└── architecture.png                # High-level Architecture Design
+```
+
+
 
 ## Getting Started
 
