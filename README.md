@@ -1,6 +1,6 @@
 # RISC-V 5-Stage Pipelined Processor
 
-![Architecture Diagram](architecture.jpg)
+![Architecture Diagram](architecture.png)
 
 ## Overview
 This repository contains the RTL implementation of a 32-bit RISC-V (RV32I) processor using a classic 5-stage pipelined architecture. The design serves as **Phase I** of a larger Capstone project titled *"Heterogeneous Out-of-Order RISC-V SoC: Architecting Dynamic Scheduling & Hardware Acceleration."*
