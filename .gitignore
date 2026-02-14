@@ -1,0 +1,32 @@
+# Create .gitignore file
+cat > .gitignore << 'EOF'
+# Vivado generated directories - IGNORE THESE
+*.cache/
+*.runs/
+*.sim/
+*.hw/
+*.ip_user_files/
+*.gen/
+*.jou
+*.log
+*.str
+NAV/
+*.backup.*
+*.bak
+*.tmp
+
+# Keep the project file and source structure
+!*.xpr
+!*.srcs/
+!*.xdc
+!README.md
+
+# Keep source files within srcs
+*.srcs/**/*.v
+*.srcs/**/*.vh
+*.srcs/**/*.sv
+*.srcs/**/*.vhd
+*.srcs/**/*.xci
+*.srcs/**/*.bd
+*.srcs/**/*.tcl
+EOF
