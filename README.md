@@ -8,9 +8,10 @@ This repository contains the RTL implementation of a 32-bit RISC-V (RV32I) proce
 The core is designed in Verilog HDL and verified using Xilinx Vivado. It features a dedicated hazard handling unit to resolve data dependencies via forwarding and control hazards via flushing, ensuring high instruction throughput.
 
 ## Project Team
+* **Vikram Singh** (241EC164)
 * **Rushil Jain** (241EC148)
 * **Sonigara Jainam** (241EC155)
-* **Vikram Singh** (241EC164)
+* **Somyak Mohanta**
 
 ## Key Features
 * **ISA Compliance:** RISC-V RV32I Base Integer Instruction Set (supports ~35 instructions).
